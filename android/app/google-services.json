@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "245182288581",
+    "project_id": "alwayzproject",
+    "storage_bucket": "alwayzproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245182288581:android:82e0f3d00a1e1ca20416ac",
+        "android_client_info": {
+          "package_name": "com.ilevit.alwayz.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245182288581-r313t96bs80r035gn4kos6flqjvcalmf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ilevit.alwayz.android",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "245182288581-ufu26pp2j2ktvrufl1djsjmn8kd3c2sn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ilevit.alwayz.android",
+            "certificate_hash": "48fb119af8c1af7149a70c9dc07e530d4a76a57d"
+          }
+        },
+        {
+          "client_id": "245182288581-9dhu9skolf23ladqhfg620npja1soorp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7uy4gS8ExfpdEATOnYJRHzx2dVBpruM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245182288581-9dhu9skolf23ladqhfg620npja1soorp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "245182288581-otjedr7klv5vdrsg1ig2ghj5h1964ugv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ilevit.alwayz.ios",
+                "app_store_id": "1576633335"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
