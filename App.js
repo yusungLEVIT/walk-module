@@ -35,42 +35,6 @@ require('moment-timezone')
 
 moment.tz.setDefault('Asia/Seoul')
 
-Sentry.init({
-  dsn: 'https://3f76740e0f9a40b599bc660b4cd2d295@o4504648757608448.ingest.sentry.io/4505102892924928',
-  release: `com.ilevit.alwayz.${Platform.OS === 'ios' ? 'ios' : 'android'}@${
-    configs.codePushVersion
-  }+${
-    Platform.OS === 'ios' ? configs.iosBuildNumber : configs.androidBuildNumber
-  }`,
-  dist: `${
-    Platform.OS === 'ios' ? configs.iosBuildNumber : configs.androidBuildNumber
-  }`,
-  // Set tracesSampleRate to 1.0 to capture 100% of transactions for performance monitoring.
-  // We recommend adjusting this value in production.
-  tracesSampleRate: __DEV__ ? 1.0 : 0.001,
-  ignoreErrors: [
-    'Rate limit is exceeded',
-    'AppState.removeEventListener is not a function',
-    'Network request failed',
-  ],
-})
-
-appsFlyer.initSdk(
-  {
-    devKey: 's2RWMwj9VpFRL69zY7533L',
-    isDebug: false,
-    appId: '1576633335',
-    onInstallConversionDataListener: false, // Optional
-    onDeepLinkListener: false, // Optional
-    timeToWaitForATTUserAuthorization: 10, // for iOS 14.5
-  },
-  (result) => {
-    console.log('appsFlyer', 'ok', result)
-  },
-  (error) => {
-    console.error('appsFlyer', 'fail', error)
-  },
-)
 // import { observer } from 'mobx-react-lite'
 
 const Stack = createStackNavigator()
