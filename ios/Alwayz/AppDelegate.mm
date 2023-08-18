@@ -71,7 +71,7 @@ static NSString *const kRNConcurrentRoot = @"concurrentRoot";
   self.window.rootViewController = rootViewController;
   [self.window makeKeyAndVisible];
 
-  [RNSplashScreen show];
+  // [RNSplashScreen show];
   return YES;
 }
 
